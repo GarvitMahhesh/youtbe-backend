@@ -16,6 +16,13 @@ app.use(cookieParser())
 app.use(cookieParser());
 
 
+// routes 
+
+
+import routes from './routes/user.routes.js'; 
+
+app.use('/api/v1/users',routes)
+
 
 
 
